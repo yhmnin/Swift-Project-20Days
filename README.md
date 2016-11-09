@@ -1,6 +1,6 @@
-# 30 Days of Swift
+## 30 Days of Swift ##
 
-## Hi Community ##
+#### Hi Community ####
 
 I am xiao fu, a [product designer](https://dribbble.com/yhmnin) and currently learning Swift.
 
@@ -9,17 +9,17 @@ This project was totally inspired by [Allen Wang](https://twitter.com/creativewa
 
 
 
-## Project1-CodeWithChris ##
-### CodeWithChris ###
+#### Project1-CodeWithChris ####
+##### CodeWithChris #####
 ![code](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project01%20-%20Code.gif)
 
-## Project2-iOS10 StopWatch ##
-### StopWatch ###
+#### Project2-iOS10 StopWatch ####
+##### StopWatch #####
 ![StopWatch](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project02%20-%20StopWatch.gif)
 
 
 ----
-### Reach me ###
+##### Reach me #####
 
 Twitter: [yhmnin](https://twitter.com/yhmninn?lang=zh-cn)
 
