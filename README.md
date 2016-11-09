@@ -15,7 +15,7 @@ This project was totally inspired by [Allen Wang](https://twitter.com/creativewa
 
 ## Project2-iOS10 StopWatch ##
 ### timer ###
-
+![image](https://github.com/yhmnin/30-Days-of-Swift/blob/master/GIF/11月-09-2016%2011-20-47.gif)
 
 
 ----
