@@ -97,7 +97,7 @@
 				TargetAttributes = {
 					D4FECF481DD4850E00C346B1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = TV8W463TTU;
+						DevelopmentTeam = YUC7T2972Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,7 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TV8W463TTU;
+				DEVELOPMENT_TEAM = YUC7T2972Z;
 				INFOPLIST_FILE = Headsup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yhmnin.NextQuestion;
@@ -275,7 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TV8W463TTU;
+				DEVELOPMENT_TEAM = YUC7T2972Z;
 				INFOPLIST_FILE = Headsup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yhmnin.NextQuestion;
