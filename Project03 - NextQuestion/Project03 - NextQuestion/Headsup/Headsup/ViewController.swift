@@ -20,9 +20,9 @@ class ViewController: UIViewController {
         "… and what was that email about?"
     ]
     var currentQuestionIndex = 0
+    
     @IBOutlet var questionLabel: UILabel!
-    
-    
+
     @IBAction func questionButtonDidTouch(_ sender: Any) {
         
         currentQuestionIndex += 1

@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4FECF491DD4850E00C346B1 /* Headsup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Headsup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FECF491DD4850E00C346B1 /*  NextQuestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " NextQuestion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FECF4C1DD4850E00C346B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FECF4E1DD4850E00C346B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4FECF511DD4850E00C346B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		D4FECF401DD4850E00C346B1 = {
 			isa = PBXGroup;
 			children = (
-				D4FECF4B1DD4850E00C346B1 /* Headsup */,
+				D4FECF4B1DD4850E00C346B1 /*  NextQuestion */,
 				D4FECF4A1DD4850E00C346B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		D4FECF4A1DD4850E00C346B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4FECF491DD4850E00C346B1 /* Headsup.app */,
+				D4FECF491DD4850E00C346B1 /*  NextQuestion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4FECF4B1DD4850E00C346B1 /* Headsup */ = {
+		D4FECF4B1DD4850E00C346B1 /*  NextQuestion */ = {
 			isa = PBXGroup;
 			children = (
 				D4FECF4C1DD4850E00C346B1 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				D4FECF551DD4850E00C346B1 /* LaunchScreen.storyboard */,
 				D4FECF581DD4850E00C346B1 /* Info.plist */,
 			);
+			name = " NextQuestion";
 			path = Headsup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4FECF481DD4850E00C346B1 /* Headsup */ = {
+		D4FECF481DD4850E00C346B1 /*  NextQuestion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4FECF5B1DD4850E00C346B1 /* Build configuration list for PBXNativeTarget "Headsup" */;
+			buildConfigurationList = D4FECF5B1DD4850E00C346B1 /* Build configuration list for PBXNativeTarget " NextQuestion" */;
 			buildPhases = (
 				D4FECF451DD4850E00C346B1 /* Sources */,
 				D4FECF461DD4850E00C346B1 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = Headsup;
+			name = " NextQuestion";
 			productName = Headsup;
-			productReference = D4FECF491DD4850E00C346B1 /* Headsup.app */;
+			productReference = D4FECF491DD4850E00C346B1 /*  NextQuestion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4FECF441DD4850E00C346B1 /* Build configuration list for PBXProject "Headsup" */;
+			buildConfigurationList = D4FECF441DD4850E00C346B1 /* Build configuration list for PBXProject " NextQuestion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4FECF481DD4850E00C346B1 /* Headsup */,
+				D4FECF481DD4850E00C346B1 /*  NextQuestion */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +265,7 @@
 				DEVELOPMENT_TEAM = TV8W463TTU;
 				INFOPLIST_FILE = Headsup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yhmnin.Headsup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhmnin.NextQuestion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +278,7 @@
 				DEVELOPMENT_TEAM = TV8W463TTU;
 				INFOPLIST_FILE = Headsup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yhmnin.Headsup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhmnin.NextQuestion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4FECF441DD4850E00C346B1 /* Build configuration list for PBXProject "Headsup" */ = {
+		D4FECF441DD4850E00C346B1 /* Build configuration list for PBXProject " NextQuestion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4FECF591DD4850E00C346B1 /* Debug */,
@@ -295,13 +296,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4FECF5B1DD4850E00C346B1 /* Build configuration list for PBXNativeTarget "Headsup" */ = {
+		D4FECF5B1DD4850E00C346B1 /* Build configuration list for PBXNativeTarget " NextQuestion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4FECF5C1DD4850E00C346B1 /* Debug */,
 				D4FECF5D1DD4850E00C346B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
