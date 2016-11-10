@@ -15,6 +15,7 @@ This project was totally inspired by [Allen Wang](https://twitter.com/creativewa
 
 #### Project2-iOS10 StopWatch ####
 ##### StopWatch #####
+ - Runtime Atrributes 中增加layer.cornerRadius 来设置button的圆角
 ![StopWatch](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project02%20-%20StopWatch.gif)
 
 #### Project3-NextQuestion ####
