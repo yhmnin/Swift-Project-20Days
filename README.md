@@ -21,7 +21,7 @@ This project was totally inspired by [Allen Wang](https://twitter.com/creativewa
 ##### NextQuestion #####
 ###### Runtime Atrributes 中增加layer.cornerRadius 来设置button的圆角 #######
 ###### 用modulus【%】来进行次数的确定 let nextQuestionIndex = currentQuestionIndex % numbersOfQuestion #######
-![NextQuestion](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project02%20-%20StopWatch.gif)
+![NextQuestion](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project03%20-%20NextQuestion.gif)
 
 ----
 ##### Reach me #####
