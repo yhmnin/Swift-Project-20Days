@@ -26,9 +26,12 @@ class ViewController: UIViewController {
     @IBAction func questionButtonDidTouch(_ sender: Any) {
         
         currentQuestionIndex += 1
-        let numberOfQuesitons = questions.count
-        let nextQuestionIndex = currentQuestionIndex % numberOfQuesitons
+        
+        let numberOfQuestions = questions.count
+        let nextQuestionIndex = currentQuestionIndex % numberOfQuestions
+        
         questionLabel.text = questions[nextQuestionIndex]
+        
         
     }
 }
