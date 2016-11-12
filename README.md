@@ -27,6 +27,10 @@ This project was totally inspired by [Allen Wang](https://twitter.com/creativewa
 ##### Inspire Card #####
 ![Inspire Card](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project05%20-%20inspire%20Card.gif)
 
+#### Project07 - StopWatch ####
+##### StopWatch #####
+![Inspire Card](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project07%20-%20StopWatch.gif)
+
 ----
 ##### Reach me #####
 
