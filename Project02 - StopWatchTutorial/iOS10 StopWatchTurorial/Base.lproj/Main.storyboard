@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLI-t6-ut4" userLabel="timeLabel">
-                                <rect key="frame" x="90" y="140" width="195" height="98.5"/>
+                                <rect key="frame" x="90" y="140" width="195" height="99"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="72"/>
                                 <color key="textColor" red="0.50231772661209106" green="0.67108118534088135" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -34,14 +34,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="119" height="69"/>
                                         <state key="normal" title="" image="bg-Start"/>
                                         <connections>
-                                            <action selector="startTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pmb-qU-8sM"/>
+                                            <action selector="startButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yah-EB-19g"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xP9-NI-yPu" userLabel="Start Stack View">
                                         <rect key="frame" x="0.0" y="69" width="119" height="69"/>
                                         <state key="normal" title="" image="bg-Pause"/>
                                         <connections>
-                                            <action selector="pauseTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IvJ-gs-1Zm"/>
+                                            <action selector="pauseButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dt4-1T-GwS"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlH-lb-fgu" userLabel="Reset Stack View">
@@ -51,7 +51,7 @@
                                             <color key="titleColor" red="0.52346124525312776" green="0.37520932274977625" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="resertTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WtU-Vd-ea9"/>
+                                            <action selector="resetButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aS2-rF-6zq"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -68,10 +68,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="PauseButtonDidTouch" destination="xP9-NI-yPu" id="KXO-0u-GCK"/>
-                        <outlet property="ResetButtonDidTouch" destination="rlH-lb-fgu" id="rbf-G7-IQe"/>
-                        <outlet property="StartButtonDidTouch" destination="skc-QA-8ud" id="rbD-ka-XO9"/>
-                        <outlet property="timeLabel" destination="TLI-t6-ut4" id="kRX-Jd-Tw2"/>
+                        <outlet property="pauseButton" destination="xP9-NI-yPu" id="LCW-Y4-Z7Z"/>
+                        <outlet property="resetButton" destination="rlH-lb-fgu" id="hdP-he-iAu"/>
+                        <outlet property="startButton" destination="skc-QA-8ud" id="yzr-SR-n2W"/>
+                        <outlet property="timeLabel" destination="TLI-t6-ut4" id="MQd-yG-bL2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
