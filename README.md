@@ -29,6 +29,7 @@ This project was totally inspired by [Allen Wang](https://twitter.com/creativewa
 
 #### Project07 - StopWatch ####
 ##### StopWatch #####
+###### Timer.scheduledTimer & String(format: "%.1f",counter) & time.individual() ######
 ![Inspire Card](https://github.com/yhmnin/30-DaysofSwift/blob/master/GIF/Project07%20-%20StopWatch.gif)
 
 ----
